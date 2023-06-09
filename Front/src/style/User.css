@@ -1,0 +1,26 @@
+.avatar {
+    vertical-align: middle;
+    width: 50 px;
+    height: 50 px;
+    border-radius: 50%;
+}
+.separator{
+background-color: #F2F2F2;
+height: 50px;
+}
+.buttondeco{
+    height: 60px;
+    background-color: #FAE46A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #AF2258;
+    font-size: 20px;
+    
+}
+.buttondecocontainer{
+margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

@@ -1,0 +1,133 @@
+.UserCard {
+    display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: #FAE46A;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.UserCard-photo {
+  
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.UserCard-name {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.UserCard-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.UserCard form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40%;
+}
+
+.UserCard form label {
+  margin-bottom: 0.5rem;
+}
+
+.UserCard form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.UserCard form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.UserCard form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.UserCard form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.UserCard form button:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.UserCard form button:hover {
+  opacity: 0.8;
+}
+
+.UserCard form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.edit {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #AF2258;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: #FAE46A;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.UserCardButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+
+
+
+.UserCardButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.UserCardButton:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.UserCardButton:hover {
+  opacity: 0.8;
+}
+
+.UserCardButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

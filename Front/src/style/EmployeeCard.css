@@ -1,0 +1,122 @@
+.EmployeeCard {
+    display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: #FAE46A;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.EmployeeCard-photo {
+  
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.EmployeeCard-name {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.EmployeeCard-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.EmployeeCard form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40%;
+}
+
+.EmployeeCard form label {
+  margin-bottom: 0.5rem;
+}
+
+.EmployeeCard form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.EmployeeCard form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.EmployeeCard form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.EmployeeCard form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.EmployeeCard form button:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.EmployeeCard form button:hover {
+  opacity: 0.8;
+}
+
+.EmployeeCard form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.EmployeeCardButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+
+
+
+.EmployeeCardButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.EmployeeCardButton:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.EmployeeCardButton:hover {
+  opacity: 0.8;
+}
+
+.EmployeeCardButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

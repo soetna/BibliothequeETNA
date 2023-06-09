@@ -1,0 +1,47 @@
+Get = recupere les données
+Post = envoie des données
+Put = modifie des données
+Delete = supprime des données
+getbydId = recupere les données par l'id
+
+Test du serveur: 
+GET / : http://localhost:3036/
+POST / : http://localhost:3036/
+
+Employés :
+
+GET /employe : http://localhost:3036/employe
+GET /employe/:id : http://localhost:3036/employe/1
+POST /employe : http://localhost:3036/employe
+DELETE /employe/:id : http://localhost:3036/employe/1
+PUT /employe/:id : http://localhost:3036/employe/1
+Livres :
+
+GET /livre : http://localhost:3036/livre
+GET /livre/:id : http://localhost:3036/livre/1
+POST /livre : http://localhost:3036/livre
+DELETE /livre/:id : http://localhost:3036/livre/1
+PUT /livre/:id : http://localhost:3036/livre/1
+Livres Empruntés :
+
+GET /livreemprunte : http://localhost:3036/livreemprunte
+GET /livreemprunte/:id : http://localhost:3036/livreemprunte/1
+POST /livreemprunte : http://localhost:3036/livreemprunte
+DELETE /livreemprunte/:id : http://localhost:3036/livreemprunte/1
+PUT /livreemprunte/:id : http://localhost:3036/livreemprunte/1
+
+Livres en Prêt :
+
+GET /livreenpret : http://localhost:3036/livreenpret
+GET /livreenpret/:id : http://localhost:3036/livreenpret/1
+POST /livreenpret : http://localhost:3036/livreenpret
+DELETE /livreenpret/:id : http://localhost:3036/livreenpret/1
+PUT /livreenpret/:id : http://localhost:3036/livreenpret/1
+
+Membres :
+GET /membre : http://localhost:3036/membre
+GET /membre/:id : http://localhost:3036/membre/1
+POST /membre : http://localhost:3036/membre
+DELETE /membre/:id : http://localhost:3036/membre/1
+PUT /membre/:id : http://localhost:3036/membre/1 
+

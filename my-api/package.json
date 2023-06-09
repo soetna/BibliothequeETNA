@@ -1,0 +1,51 @@
+{
+  "name": "sami",
+  "version": "1.0.0",
+  "description": "Name of the project : Foot Stock Concept : A simple football jersey sale, with special offers. Available : Jerseys of all generations ! Flocked or not, of all possible legends or less known.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "del /q /s build && tsc",
+    "eslint": "eslint src/*.ts --fix",
+    "start": "node build/src/server.js",
+    "migrate": "node --require ./build/src/database/migrate.js",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rendu-git.etna-alternance.net:module-9179/activity-50057/group-990961.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.7",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "express": "^4.18.2",
+    "express.js": "^1.0.0",
+    "mariadb": "^3.0.1",
+    "mysql2": "^2.3.3",
+    "node": "^19.0.0",
+    "oracledb": "^5.5.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^6.11.2",
+    "sequelize": "^6.25.3",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2",
+    "tedious": "^15.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "keywords": []
+}

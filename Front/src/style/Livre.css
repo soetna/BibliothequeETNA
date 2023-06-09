@@ -1,0 +1,48 @@
+.Card {
+  position: relative;
+  font-family: 'montserrat', sans-serif;
+  margin-top: 90px;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+  
+  .Card-image {
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  .Card-content {
+    text-align: center;
+  }
+  
+  .Card-title {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .Card-author {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .Livre {
+    position: absolute; 
+    right: 70px; 
+    bottom: -13px;
+    font-size: 40px;
+    color: lightgrey;
+    margin: 0;
+  }

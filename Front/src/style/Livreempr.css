@@ -1,0 +1,18 @@
+.LivreemprContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #FAE46A;
+  
+  }
+  
+  .LivreemprRectangle {
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    }
+  

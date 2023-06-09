@@ -1,0 +1,35 @@
+.ContentBox {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .ClickableItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  
+  .ItemImage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .ItemTitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  

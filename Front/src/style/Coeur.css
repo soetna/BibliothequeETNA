@@ -1,0 +1,18 @@
+.CoupDeCoeurContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  height: 700px;
+  background-color: #FAE46A;
+
+}
+
+.CoupDeCoeurRectangle {
+  width: 90%;
+  max-width: 90%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  }

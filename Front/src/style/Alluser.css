@@ -1,0 +1,28 @@
+.Alluser {
+    display: inline-block;
+    width: 20%;
+    justify-content: space-around;    
+    margin-top: 100px;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+    
+  }
+  
+  .AlluserContainer {
+    box-shadow: 0 0 10px #ccc;
+  background-color: #FAE46A;
+  height: 100%;
+  }

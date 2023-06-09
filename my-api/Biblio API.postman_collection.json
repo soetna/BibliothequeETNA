@@ -1,0 +1,525 @@
+{
+	"info": {
+		"_postman_id": "d2982957-9a07-44a9-b03e-8364d6d74b34",
+		"name": "Biblio API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27331774"
+	},
+	"item": [
+		{
+			"name": "Employés",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/employe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"employe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/employe/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"employe",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/employe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"employe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/employe/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"employe",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/employe/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"employe",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Livres",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Livres Empruntés",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreemprunte",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreemprunte"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreemprunte/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreemprunte",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreemprunte",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreemprunte"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreemprunte/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreemprunte",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreemprunte/1\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreemprunte",
+								"1\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Livre en prêt",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreenpret",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreenpret"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreenpret/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreenpret",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreenpret",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreenpret"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreenpret/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreenpret",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/livreenpret/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"livreenpret",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Membres",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/membre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"membre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/membre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"membre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/membre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"membre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/membre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"membre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3036/membre/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3036",
+							"path": [
+								"membre",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
