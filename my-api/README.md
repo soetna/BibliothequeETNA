@@ -7,7 +7,7 @@ Cette API est destinée à gérer une bibliothèque virtuelle. Elle permet de g�
 1. Cloner le dépôt du projet :
 
    ```bash
-   git clone https://github.com/Aaaaarii/Bibliotheque.git
+   git clone  https://github.com/soetna/BibliothequeETNA.git
    ```
 
 2. Accéder au répertoire du projet :
