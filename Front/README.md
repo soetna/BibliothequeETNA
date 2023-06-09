@@ -15,7 +15,7 @@ Avant de pouvoir exécuter l'application, assurez-vous d'avoir les éléments su
 1. Clonez ce dépôt de code source :
 
    ```
-   git clone <URL_DU_REPO>
+   git clone https://github.com/soetna/BibliothequeETNA.git
    ```
 
 2. Accédez au répertoire de l'application :
